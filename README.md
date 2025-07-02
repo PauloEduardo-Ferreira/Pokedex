@@ -2,7 +2,10 @@
 
 Uma Pokédex interativa desenvolvida com JavaScript, HTML e CSS, que consome a PokéAPI para listar e exibir informações dos Pokémons iniciais.
 
-![Capa do Projeto](./capa.png)
+## 📸 Preview
+
+![image](https://github.com/user-attachments/assets/fccc8fdf-f0ca-468b-a9b4-fe11a74fbcac)
+
 
 ## 🔍 Funcionalidades
 
@@ -43,10 +46,6 @@ Durante o desenvolvimento deste projeto, aprimorei minhas habilidades com:
 - Requisições com `fetch()` e tratamento de dados assíncronos
 - Estruturação de layout com CSS moderno
 - Organização de código JavaScript modular
-
-## 📸 Preview
-
-![Preview da Pokédex](./capa.png)
 
 ## 📄 Licença
 
