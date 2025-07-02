@@ -45,5 +45,10 @@ pokeApi.getPokemons = (offset = 0, limit = 5) => {
     .then(jsonBody => jsonBody.results)
     .then(pokemons => pokemons.map(pokeApi.getPokemonDetail))
     .then(detailRequests => Promise.all(detailRequests))
-    .then(pokemonsDetails => pokemonsDetails);
+    .then(pokemonsDetails => pokemonsDetails)
+    .catch(error => {
+      console.error('Erro ao carregar os pokémons:', error);
+      alert('Houve um erro ao carregar os Pokémons. Tente novamente mais tarde.');
+      return []; 
+    });
 }
